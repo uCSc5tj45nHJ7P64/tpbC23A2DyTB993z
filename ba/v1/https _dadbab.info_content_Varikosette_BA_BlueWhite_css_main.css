@@ -1,0 +1,1066 @@
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* --------------------------- VaricoFix - styles.css ----------------------------- */
+/* --------------- please use soft tabs - 4 spaces identation. -------------------- */
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* ------------------------- */ @charset "utf-8"; /* ------------------------------ */
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+body {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    position: relative;
+    min-width: 1050px;
+    min-height: 100%;
+    font-family: 'Open Sans', sans-serif, Tahoma, Verdana;
+    font-size: 16px;
+    color: #000;
+    background: #fff;
+}
+.cf:before,.cf:after, .clearfix:before,.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.clear, .cf, .clearfix {
+    clear: both;
+}
+.center_wrapper {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto 0 auto;
+    padding: 1px 25px 1px 25px;
+}
+.guaranty {
+    display: block;
+    position: absolute;
+    width: 149px;
+    height: 147px;
+    left: -189px;
+    bottom: -212px;
+    background: transparent url('//dadbab.info/content/Varikosette_BA_BlueWhite/images/guaranty_de.png') repeat scroll top left;
+}
+.discount {
+    display: block;
+    width: 115px;
+    height: 117px;
+    background: transparent url('//dadbab.info/content/Varikosette_BA_BlueWhite/images/discount.png') repeat scroll top left;
+}
+.discount p {
+    line-height: 18px;
+    margin: 0 0 0 0;
+    padding: 39px 0 0 0;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    color: #2e221c;
+    text-align: center;
+}
+.discount p b {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-size: 36px;
+}
+.bg {
+    display: block;
+}
+input, .selectbox .select {
+    vertical-align: bottom;
+    -webkitbox-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.inp{
+
+}
+input, .selectbox {
+    margin: 5px 0 5px 0;
+}
+.headline {
+    margin: 40px 0 20px 0;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-style: normal ;
+    font-size: 36px;
+    color: #000;
+}
+.headline > span {
+    font-family: 'Lobster', cursive;
+    font-weight: normal;
+    font-size: 48px;
+}
+.headline > span span {
+    color: #ffbb00;
+}
+header {
+    position: relative;
+    height: 38px;
+    background-color:#001525;
+}
+.logo {
+    position: absolute;
+    width: 36px;
+    height: 26px;
+    left: 25px;
+    top: 8px;
+    background: transparent url('//dadbab.info/content/Varikosette_BA_BlueWhite/images/header_logo.png') repeat scroll top left;
+    z-index: 20;
+    width: 160px;
+    height: 40px;
+    background-size: 72%;
+    background-repeat: no-repeat;
+}
+.logo-txt {
+    padding-left: 38px;
+    font-family: 'Lobster', cursive;
+    font-weight: normal;
+    font-size: 22px;
+    color: #ffbb00;
+    line-height: 22px;
+}
+
+.phone_number {
+    font-size: 14px;
+    color: #fff;
+    float: right;
+    margin-right: 486px;
+    line-height: 34px;
+    display: none;
+}
+.phone_number img {
+    width: 22px;
+    vertical-align: middle;
+}
+
+.block_1 .center_wrapper {
+   height: 760px;
+}
+
+.block_1 {
+   background: #01386e url("//dadbab.info/content/Varikosette_BA_BlueWhite/images/header.jpg") no-repeat scroll center center;
+  -webkit-background-size: cover;
+	background-size:         cover;
+}
+#varik {
+	position: absolute;
+    bottom: 0;
+    left: 519px;
+    width: 200px;
+    z-index: 1000;
+}
+.block_1 .bubble {
+    position: absolute;
+    left: 65px;
+    top: 50px;
+    margin: 0 0 0 0;
+    padding: 5px 10px;
+    font-style: italic;
+    font-size: 13px;
+    color: #fff;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.75);
+    z-index: 10;
+}
+
+/* --------------- Thats our bubble arrow box --------------------- */
+.arrow_box {
+    position: relative;
+    background: rgba(10, 10, 10, 0.2);
+    border: 1px dotted #ccc;
+    display: inline-block;
+    padding: 0 10px 10px 10px;
+    font-size: 16px;
+}
+.arrow_box:after, .arrow_box:before {
+    top: 100%;
+    left: 75%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.arrow_box:after {
+    border-color: rgba(136, 183, 213, 0);
+    border-top-color: rgba(10, 10, 10, 0.2);
+    border-width: 20px;
+    margin-left: -20px;
+}
+.arrow_box:before {
+    border-color: rgba(194, 225, 245, 0);
+    /*border-top-color: #ccc;*/
+    border-width: 26px;
+    margin-left: -26px;
+}
+/* --------------- end of our bubble arrow box --------------------- */
+
+
+.block_1 .center_wrapper > .list {
+  background: rgba(10, 10, 10, 0.4) none repeat scroll 0 0;
+  border-radius: 16px;
+  left: -15px;
+  padding: 10px;
+  position: absolute;
+  top: 310px;
+  width: 418px;
+  z-index: 20;
+}
+.block_1 .center_wrapper > .list p {
+    line-height: 26px;
+    margin: 10px 0 0 0;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 22px;
+    color: #fff;
+    margin-left: 16px;
+}
+.block_1 .center_wrapper > .list ul {
+    margin: 0 0 0 15px;
+    padding: 0 0 0 0;
+    list-style: none outside none;
+}
+.block_1 .center_wrapper > .list li {
+    line-height: 18px;
+    padding: 5px 0px 4px 35px;
+    background: transparent url('//dadbab.info/content/Varikosette_BA_BlueWhite/images/list_ico_green.png') no-repeat scroll left center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+    color: #fbf4b1;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.75);
+    /* just to be ease to read.*/ margin-top: 8px;
+}
+.block_1 .center_wrapper > .list + p {
+    position: absolute;
+    line-height: 16px;
+    left: 12px;
+    bottom: 15px;
+    margin: 0 0 0 0;
+    padding-left: 33px;
+    background: transparent url('//dadbab.info/content/Varikosette_BA_BlueWhite/images/block_1_ico.png') no-repeat scroll left center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    z-index: 20;
+        text-shadow: 2px 2px 5px #001;
+}
+.block_1 .center_wrapper > .list + p b {
+    color: #ffcd00;
+}
+.block_1 .center_wrapper > .form {
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 2px 2px 10px 2px #ccc;
+  padding: 10px 16px;
+  position: absolute;
+  right: 30px;
+  top: 290px;
+  width: 260px;
+  z-index: 20;
+  padding-bottom: 20px;
+}
+.block_1 .discount {
+    margin: 10px auto 10px auto;
+    display: block;
+}
+.block_1 .center_wrapper > .form > p {
+    text-align: center;
+}
+.block_1 .center_wrapper > .form > div + p {
+    margin: 10px 0 0 0;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000;
+}
+.block_1 .center_wrapper > .form > div + p + p {
+    margin: 0 0 0 0;
+    line-height: 30px;
+    font-family: 'Lobster';
+    font-size: 30px;
+    color: #c00607;
+}
+.block_1 .center_wrapper > .form > div + p + p + p {
+    margin: 5px 0 5px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #7f8a8b;
+    color: #000;
+}
+.block_1 .center_wrapper > .form > div + p + p + p span {
+    color: #191b1b;
+    text-decoration: line-through;
+}
+.block_1 form {
+    width: 100%;
+}
+.block_1 form input {
+    margin: 3px 0 3px 0;
+}
+.block_2 {
+    background: #fbf8ea url('//dadbab.info/content/Varikosette_BA_BlueWhite/images/bg_beige.jpg') repeat scroll center top;
+}
+.block_2 .center_wrapper {
+    min-height: 380px;
+    background: transparent url('//dadbab.info/content/Varikosette_BA_BlueWhite/images/varikosette1-1.png') no-repeat scroll 695px 15px;
+    background-size: 230px;
+}
+.block_2 .headline {
+    margin-top: 40px;
+}
+.block_2 .center_wrapper > p {
+    position: relative;
+    margin-right: 350px;
+}
+.block_3 {
+    min-height: 563px;
+    background: #fff none repeat scroll top left;
+}
+.block_3 .bg {
+    position: absolute;
+    width: 745px;
+    height: 563px;
+    left: 100px;
+    top: 0px;
+    background: transparent url('//dadbab.info/content/Varikosette_BA_BlueWhite/images/block_3_bg.jpg') repeat scroll top left;
+    background-repeat: no-repeat;
+}
+.block_3 .lable {
+    position: absolute;
+    width: 178px;
+    height: 177px;
+    left: 150px;
+    top: -29px;
+    background: transparent url('//dadbab.info/content/Varikosette_BA_BlueWhite/images/block_3_bg_lable.png') repeat scroll top left;
+}
+.block_3 .lable p {
+    line-height: 30px;
+    margin: 50px 0 0 0;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+.block_3 .description {
+    position: absolute;
+    width: 152px;
+    top: 137px;
+    left: 25px;
+}
+.block_3 .description p {
+    margin: 22px 0 21px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 700;
+    color: #000;
+    text-align: right;
+}
+
+.block_3 .description p:nth-child(2) {
+    margin-top: 25px;
+}
+
+.block_3 .description p:nth-child(3) {
+    margin-top: 40px;
+}
+
+.block_3 .description p:nth-child(4) {
+    margin-top: 22px;
+}
+
+.block_3 .description p:nth-child(5) {
+    margin-top: 28px;
+}
+
+
+
+.block_3 .headline {
+    position: relative;
+    margin: 115px 0 30px 520px;
+}
+.block_3 .center_wrapper ul {
+    position: relative;
+    margin: 0 0 0 520px;
+    padding: 0 0 0 0;
+    list-style: none outside none;
+}
+.block_3 .center_wrapper li {
+    padding: 0px 0px 4px 35px;
+    background: url('//dadbab.info/content/Varikosette_BA_BlueWhite/images/list_ico_red.png') left 3px no-repeat;
+    font-family: 'Open Sans', sans-serif;
+    /*font-style: italic;*/
+}
+/* block 4 */
+.block_4 {
+    min-height: 415px;
+    background: #0088a3 none repeat scroll top left;
+}
+.block_4 .ss {
+    color:#fff;
+    margin: 0px 0 0 20px;
+    display: inline-block;
+    position: absolute;
+    top: 300px;
+}
+.block_4 .ss p {
+    margin: 0 10px;
+    width: 130px;
+    font-weight: bold;
+    display: inline-block;
+}
+.block_4 .ss p:last-child {
+    margin: 0px 30px;
+    margin: 100px 30px;
+}
+
+.block_4 .headline {
+    width: 66%;
+    float: right;
+    left: 10px;
+    margin-bottom: 5px;
+    margin: 70px 0 20px 0;
+}
+.block_4 .headlinep {
+    width: 66%;
+    float: right;
+    left: 10px;
+    margin-top: 5px;
+}
+
+.block_4 .block_4_bg {
+    position: absolute;
+    width: 507px;
+    height: 415px;
+    left: -86px;
+    top: 0px;
+    background: transparent url('//dadbab.info/content/Varikosette_BA_BlueWhite/images/block_4_bg.jpg') repeat scroll top left;
+    display: block;
+}
+.block_4 .center_wrapper > p {
+    position: relative;
+    font-size: 18px;
+    color: #fff;
+}
+.block_5 {
+    padding-bottom: 20px;
+    background: #fff none repeat scroll top left;
+}
+.block_5 .headline {
+    text-align: center;
+}
+.block_5 .center_wrapper > div {
+    margin: 16px 16px 16px 16px;
+    padding: 1px 20px 1px 20px;
+    border: 1px dotted #51b9c4;
+    border-radius: 7px;
+    background: #f5fcfd none repeat scroll top left;
+    overflow: hidden;
+}
+.block_5 .center_wrapper > div > img {
+    float: left;
+    margin: 30px;
+
+    width: 180px;
+    border-radius: 100px;
+    border: 1px dashed #000;
+}
+.block_5 .center_wrapper > div > p:last-child {
+    /*margin-left: 220px;*/
+    text-align: right;
+}
+.block_5 .center_wrapper > div > img + p {
+    font-style: italic;
+    color: #353535;
+}
+.block_5 .center_wrapper > div > img + p + p {
+    font-style: italic;
+    font-size: 13px;
+    color: #1B1B1B;
+}
+.block_5 .center_wrapper > div > img + p + p b {
+    font-style: normal;
+    font-size: 16px;
+    color: #353535;
+}
+.block_5 .center_wrapper > div + div {
+    /*border: 1px dotted #f766a9;*/
+    /*background: #fff8f8;*/
+}
+.block_5 .center_wrapper > div + div > img {
+    /*float: right;*/
+
+    width: 180px;
+    border-radius: 100px;
+    border: 1px dashed #000;
+}
+.block_5 .center_wrapper > div + div > p:last-child {
+    text-align: right;
+  margin-top: 40px;
+}
+/* block 6 */
+.block_6 {
+    background: #72b241 url('//dadbab.info/content/Varikosette_BA_BlueWhite/images/bg_green.jpg') repeat scroll center top;
+}
+.block_6 .center_wrapper {
+    min-height: 983px;
+    background: transparent url('//dadbab.info/content/Varikosette_BA_BlueWhite/images/block_6_bg.png') no-repeat scroll 254px 430px;
+}
+.block_6 .headline {
+    color: #fff;
+    text-align: center;
+}
+.block_6 p {
+    color: #FFFFFF;
+}
+.block_6 .center_wrapper > .headline + p, .block_6 .center_wrapper > div + p, .block_6 .center_wrapper > div + p + p {
+    text-align: center;
+}
+.block_6 .center_wrapper > .headline + p b, .block_6 .center_wrapper > div + p + p {
+    font-weight: bold;
+    font-size: 24px;
+    color: #faee4e;
+}
+.block_6 .center_wrapper > div p {
+    line-height: 20px;
+    text-shadow: 1px 1px 2px #000;
+}
+.block_6 .center_wrapper > div p b {
+    line-height: 18px;
+    font-size: 16px;
+
+}
+.block_6 .center_wrapper > div > div > div, .block_6 .center_wrapper .clear {
+    margin: 6px 0 6px 0;
+    padding: 1px 20px 1px 20px;
+    border-radius: 2px;
+    background: rgba(0, 0, 0, 0.15) none repeat scroll top left;
+    overflow: hidden;
+}
+.block_6 .center_wrapper .left {
+    width: 365px;
+ 
+    float: left;
+}
+.block_6 .center_wrapper .left div {
+    margin: 1.2% 0;
+    padding: 10px;
+}
+.block_6 .center_wrapper .left img {
+    margin-top: 20px;
+    float: left;
+    border-radius: 22px;
+    margin-right: 10px;
+}
+.block_6 .center_wrapper .right {
+    width: 365px;
+    float: right;
+}
+.block_6 .center_wrapper .right div {
+    height: 23%;
+}
+.block_6 .center_wrapper .right img {
+    margin-top: 20px;
+    float: right;
+    border-radius: 22px;
+    margin-left: 10px;
+}
+.block_6 .center_wrapper .clear {
+    margin: 6px 0;
+}
+.block_6 .center_wrapper .clearup {
+    margin: 0 !important;
+}
+.block_6 .center_wrapper .clearup p {
+    margin: 0 !important;
+    padding: 20px;
+}
+.block_6 .center_wrapper .clear img {
+    margin-top: 20px;
+    float: left;
+}
+.block_6 .center_wrapper .clear p {
+    margin-left: 90px;
+}
+/* block 7 */
+.block_7 {
+    background: url('//dadbab.info/content/Varikosette_BA_BlueWhite/images/bg_beige.jpg') center top repeat #fbf8ea;
+}
+.block_7 .headline {
+    text-align: center;
+}
+.block_7 .center_wrapper > div {
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+.block_7 .center_wrapper > div > div {
+    width: 50%;
+    float: left;
+}
+.block_7 .center_wrapper > p{
+    /*margin: 2px 15px;*/
+    padding-left: 14px;
+}
+.block_7 .center_wrapper > div > div p {
+    height: 60px;
+    margin: 2px 10px;
+    padding: 6px 8px 6px 55px;
+    background: url('//dadbab.info/content/Varikosette_BA_BlueWhite/images/list_ico_plus.png') 13px center no-repeat #78b544;
+    font-weight: bold;
+    /*font-style: italic;*/
+    font-size: 18px;
+    color: #fff;
+    display: table;
+    width: 443px;
+}
+.block_7 .center_wrapper > div > div p span{
+    display: table-cell;
+    width: 100%;
+    vertical-align: middle;
+    height: 60px;
+}
+.block_8 {
+    background: #0088a2 none repeat scroll top left;
+}
+.block_8 .center_wrapper {
+    overflow: hidden;
+}
+.block_8 .center_wrapper > div {
+    margin: 35px 0 35px 0;
+    width: 33.333333333%;
+    text-align: center;
+    float: left;
+}
+.block_8 .center_wrapper > div p {
+    margin: 5px 0 0 0;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+}
+.block_9 {
+    background: #c00606 none repeat scroll top left;
+}
+.block_9 .center_wrapper {
+    overflow: hidden;
+}
+.block_9 .headline {
+    color: #fff;
+    text-align: center;
+}
+.block_9 .center_wrapper > div {
+    width: 20%;
+    text-align: center;
+    float: left;
+}
+.block_9 .center_wrapper > div img {
+    border: 3px solid #fff;
+    border-radius: 5px;
+}
+.block_9 .center_wrapper > div p {
+    margin: 20px 7px;
+    font-weight: bold;
+    /*font-style: italic;*/
+    font-size: 18px;
+    color: #fff;
+}
+/* block 10 */
+.block_10 {
+    padding-bottom: 16px;
+    background: #fff none repeat scroll top left;
+}
+.block_10 .headline {
+    text-align: center;
+}
+.block_10 .center_wrapper > div {
+    margin: 8px 8px 8px 8px;
+    padding: 1px 20px 1px 20px;
+    border: 1px dotted #828282;
+    border-radius: 7px;
+    background: #f1f1f1 none repeat scroll top left;
+    overflow: hidden;
+}
+.block_10 .center_wrapper > div > div {
+    width: 200px;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    float: left;
+}
+.block_10 .center_wrapper > div > div p {
+    margin: 3px 0;
+    font-weight: bold;
+    /*font-style: italic;*/
+    font-size: 14px;
+    color: #353535;
+}
+.block_10 .center_wrapper > div > p {
+    margin-left: 260px;
+    font-style: italic;
+    font-size: 14px;
+    color: #353535;
+}
+.block_11 {
+    height: 600px;
+    background: #fbf8ea none repeat scroll top left;
+}
+
+
+.block_11 .bg {
+    position: absolute;
+    width: 1067px;
+    height: 550px;
+    left: -80px;
+    top: 10px;
+    background: transparent url('//dadbab.info/content/Varikosette_BA_BlueWhite/images/block_16_bg.png') no-repeat scroll top left;
+    background-size: 60% 90%;
+}
+#last_scr_img {
+    position: absolute;
+    left: 262px;
+    width: 250px;
+    top: 149px;
+}
+.dsc_box {
+    background-color: #fff;
+    box-shadow: 3px 4px 12px 5px #888888;
+    border-radius: 6px;
+    padding: 10px 26px 30px 26px;
+}
+
+
+.block_11 .center_wrapper > form,
+.block_11 .center_wrapper > div {
+    position: absolute;
+    width: 281px;
+    right: 154px;
+    top: 58px;
+}
+.block_11 .discount {
+    text-align: center;
+    display: block;
+    margin: 10px auto 10px auto;
+}
+.block_11 .center_wrapper > div > div + p {
+    margin: 10px 0 0 0;
+    margin-right: 15px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 33px;
+    color: #000;
+    text-align: right;
+}
+.block_11 .center_wrapper > div > div + p + p,
+.block_11 .center_wrapper > div > form + p + p {
+    margin: 0 0 0 0;
+    margin-right: 9px;
+    font-family: 'Lobster', cursive;
+    font-size: 24px;
+    color: #c00607;
+    text-align: right;
+}
+.block_11 .center_wrapper > div > div + p + p span {
+    line-height: 49px;
+    margin-right: -9px;
+    font-size: 60px;
+}
+.block_11 .center_wrapper > div > div + p + p + p {
+    margin: 5px 0 5px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    color: #7f8a8b;
+    text-align: right;
+}
+.block_11 .center_wrapper > div > div + p + p + p span {
+    color: #191b1b;
+    text-decoration: line-through;
+}
+#lv-form input[type="submit"] , .lv-order-button {
+    height: 64px;
+    padding: 0 20px 0 20px;
+    border: 1px solid #015da7;
+    border-radius: 2px;
+    background: #5cbbff none repeat scroll top left;
+    background: transparent -moz-linear-gradient(top, #5cbbff 0%, #2989d8 75%, #0095ff 100%) repeat scroll top left;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5cbbff', endColorstr='#0095ff',GradientType=0 );
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.35);
+    box-shadow: 1px 2px 2px rgba(164,170,178,0.5), 1px 1px 0px rgba(255,255,255,0.35) inset;
+    -webkitbox-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+}
+.bffoot {
+    background-color: #fbf8ea;
+    text-align: center;
+    font-size: 13px;
+}
+.footer {
+    font-size: 14px;
+    /*background: #01386e;*/
+}
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer span {
+    margin-left: 4px;
+}
+.rushOrder {
+    /*padding: 20px 23px;*/
+    border: 1px solid #015da7;
+    border-radius: 2px;
+    background: #5cbbff none repeat scroll top left;
+    background: transparent -moz-linear-gradient(top, #5cbbff 0%, #2989d8 75%, #0095ff 100%) repeat scroll top left;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5cbbff', endColorstr='#0095ff',GradientType=0 );
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.35);
+    box-shadow: 1px 2px 2px rgba(164,170,178,0.5), 1px 1px 0px rgba(255,255,255,0.35) inset;
+    -webkitbox-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    /*width: 100%; */
+    height: 100%;
+    font-size: 28px;
+    padding: 2px 10px 2px 10px;
+}
+
+/*/-------------- POPUP -------------------/*/
+#popWindow{
+    position:fixed;
+    right: 10px;
+    bottom: 10px;
+    max-width: 220px;
+    padding: 16px;
+    background:#EFECDC;
+    font-size: 14px;
+    border:1px solid #CCC;
+    border-radius:20px;
+    box-shadow:1px 1px 5px #999;
+    opacity:0;
+    z-index: 999999;
+}
+
+#popWindow b{
+    font-weight:bold;
+    font-size: 16px;
+}
+
+#popWindow i{
+    font-size: 16px;
+    font-weight:bold;
+    color:red;
+}
+
+#popWindow span {
+    font-size: 16px;
+    font-weight:bold;
+    color:#0C6;
+}
+/*/-------------- END POPUP -------------------/*/
+
+
+.footer {
+    padding: 0px 0px;
+    text-align: center;
+    font-size: 12pt;
+    color: #ccc;
+}
+
+.footer a {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer span {
+    margin-left: 4px;
+}
+
+.rushOrder {
+    /*padding: 20px 23px;*/
+    border: 1px solid #015da7;
+    border-radius: 2px;
+    background: #5cbbff;
+    background: -moz-linear-gradient(top, #5cbbff 0%, #2989d8 75%, #0095ff 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5cbbff), color-stop(75%,#2989d8), color-stop(100%,#0095ff));
+    background: -webkit-linear-gradient(top, #5cbbff 0%,#2989d8 75%,#0095ff 100%);
+    background: -o-linear-gradient(top, #5cbbff 0%,#2989d8 75%,#0095ff 100%);
+    background: -ms-linear-gradient(top, #5cbbff 0%,#2989d8 75%,#0095ff 100%);
+    background: linear-gradient(to bottom, #5cbbff 0%,#2989d8 75%,#0095ff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5cbbff', endColorstr='#0095ff',GradientType=0 );
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    
+    color: #fff;
+    text-align: center;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.35);
+    box-shadow: 1px 2px 2px rgba(164,170,178,0.5), 1px 1px 0px rgba(255,255,255,0.35) inset;
+    -webkitbox-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    /*width: 100%;*/
+    height: 100%;
+    font-size: 18px;
+    padding: 2px 10px;
+    text-transform: uppercase;
+}
+
+.rushOrder:hover {
+    -webkit-filter: saturate(3);
+    -moz-filter: saturate(3);
+    filter: saturate(3);
+}
+
+.slogon {
+    color: #fff;
+    font-family: 'Arial', sans-serif, Tahoma, Verdana;
+    font-style: italic;
+    font-size: 26px;
+    margin-left: 45px;
+    margin-top: 210px;
+    letter-spacing: 3px;
+    position: absolute;
+    text-align: center;
+    text-shadow: 2px 2px 3px #2b7c7a;
+    width: 34%;
+    z-index: 99999;
+}
+
+.block_1 .stmp  {
+    position: relative;
+    float: right;
+    top: 5px;
+    z-index: 99999;
+    color: #fff;
+    text-align: center;
+    width: 155px;
+    height: 150px;
+    background: transparent url('//dadbab.info/content/Varikosette_BA_BlueWhite/images/discount.png') repeat scroll top left;
+    right: -36px;
+}
+.block_1 .stmp1 { 
+    margin-right: 10px;
+    font-family: 'Arial';
+    line-height: 13px;
+    font-weight: bold;
+    background: transparent url('//dadbab.info/content/Varikosette_BA_BlueWhite/images/stamp3.png') no-repeat scroll center center;
+    background-size: 180px;
+}
+.block_1 .stmp2 {
+    margin-right: 100px;
+    font-family: 'Arial';
+    line-height: 24px;
+    font-weight: bold;
+    width: 142px;
+    background: transparent url('//dadbab.info/content/Varikosette_BA_BlueWhite/images/stamp2.png') no-repeat scroll center center;
+    background-position: -10px 2px;
+ }
+.block_1 .stmp3 {
+    margin-right: 10px;
+    line-height: 16px;
+    font-weight: bold;
+    background: transparent url('//dadbab.info/content/Varikosette_BA_BlueWhite/images/five-star.png') no-repeat scroll center center;
+    background-position: -22px -5px;
+    /* new */
+    float: left;
+    left: 249px;
+}
+
+.block_1 .stmp4 {
+    display: block;
+    width: 120px;
+    height: 120px;
+
+    background: transparent url('//dadbab.info/content/Varikosette_BA_BlueWhite/images/guaranty_nl.png') repeat scroll top center;
+    background-size: 99%;
+    background-repeat: no-repeat;
+        margin-right: 10px;
+}
+
+.block_1 .stmp p {
+    vertical-align: middle;
+}
+
+.guarantee {
+    margin-top: 80px;
+}
+
+.block_1 .stmp3 p {
+    font-size: 12px;
+    font-family: 'Arial';
+    padding: 24px;
+    padding-right: 60px;
+    padding-top: 40px;
+}
+.block_1 .stmp2 p {
+    font-size: 16px;
+    font-family: 'Arial';
+    margin-top: 70px;
+}
+.block_1 .stmp1 p {
+    font-size: 12px;
+    font-family: 'Arial';
+    padding: 30px;
+    padding-top: 38px;
+}
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* ----------------------- VaricoFix - end of styles.css -------------------------- */
+/* --------------- please use soft tabs - 4 spaces identation. -------------------- */
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+
+.inp {
+    background: #fff;
+    border: 1px solid #d5dde9;
+    padding: 0 15px;
+    color: #000 !important;
+    width: 100%;
+    font-size: 16px;
+    height: 35px;
+    line-height: normal;
+    line-height: 31px\0/;
+    margin: 0 auto 10px!important;
+    
+  
+}
+select.inp {
+    padding:0 0 0 15px;	
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none!important;
+    background: url(//dadbab.info/content/Varikosette_BA_BlueWhite/images/sel.svg) no-repeat 95%;
+    line-height: 100%;
+    text-align: left;
+    line-height: 120%;
+}
+
+.full-price{
+    font-size: 35px;
+    font-family: 'Lobster';
+
+    color: #c00607;
+}
+.form_info {
+  font-size: 10px
+   
+}

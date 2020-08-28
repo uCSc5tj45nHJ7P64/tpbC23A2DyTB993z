@@ -1,0 +1,27 @@
+/* Code tidied up by ScrapBook */
+@import url("css.css");
+.corb-pl *, .corb-pl .placeholder { font-family: Roboto,sans-serif; }
+html { min-width: 320px; }
+.dib { -moz-box-orient: vertical; display: inline-block; vertical-align: top; }
+.corb-center { text-align: center ! important; }
+.corb-pl { display: none; position: fixed ! important; top: 0px ! important; width: 100% ! important; height: 100% ! important; left: 0px ! important; background: rgba(0, 0, 0, 0.75) none repeat scroll 0% 0% ! important; z-index: 1000 ! important; }
+.corb-pl :-moz-placeholder { color: rgb(136, 136, 136) ! important; font-size: 22px ! important; font-family: Roboto,sans-serif; }
+.corb-pl .placeholder { color: rgb(136, 136, 136) ! important; font-size: 22px ! important; }
+.corb-pl * { box-sizing: border-box ! important; padding: 0px ! important; border: 0px none ! important; margin: 0px ! important; }
+.order182614-form, .order182614-form .secInp { background: rgb(255, 255, 255) none repeat scroll 0% 0% ! important; border-radius: 10px ! important; }
+.order182614-form { position: absolute ! important; min-width: 300px ! important; left: 50% ! important; top: 50% ! important; transform: translate(-50%, -50%) ! important; max-width: 550px ! important; padding: 25px 30px ! important; margin: 0px auto ! important; border-radius: 10px ! important; }
+.order182614-form .secInp { width: 45% ! important; height: 32px ! important; font-size: 22px ! important; color: rgb(0, 0, 0) ! important; border-radius: 10px ! important; border: 1px solid rgb(180, 180, 180) ! important; padding: 0px 16px ! important; outline: 0px none ! important; margin: 0px 5px 18px ! important; }
+.order182614-form .secInp:focus, .order182614-form .secInp:hover { box-shadow: 0px 0px 10px 0px rgba(24, 42, 133, 0.35) inset ! important; }
+.corb-top__header { font-size: 30px ! important; font-weight: 300; line-height: 35px ! important; white-space: normal; word-break: normal; color: rgb(0, 0, 0); }
+.corb-top__header b { display: block; color: rgb(226, 0, 0); text-align: center; font-weight: 700; text-transform: uppercase; padding: 5px 0px 15px ! important; }
+.corb-top__header span { display: block; font-weight: 400; }
+.secSendBtn { background: transparent linear-gradient(to bottom, rgb(248, 57, 26) 0px, rgb(168, 11, 3) 100%) repeat scroll 0% 0% ! important; text-align: center ! important; height: 63px ! important; width: 256px ! important; font-family: Arial,sans-serif ! important; font-size: 32px ! important; line-height: 63px ! important; color: rgb(255, 255, 255) ! important; font-weight: 400 ! important; border-radius: 10px ! important; transition: all 0.5s ease-out 0s ! important; margin: 0px auto ! important; }
+.secSendBtn:hover { background: transparent linear-gradient(to bottom, rgb(168, 11, 3) 0px, rgb(248, 57, 26) 100%) repeat scroll 0% 0% ! important; transform: translateZ(0px) scale(1.05) ! important; cursor: pointer ! important; }
+@media only screen and (max-width: 800px) {
+  .order182614-form { padding: 20px 10px ! important; }
+  .secSendBtn { height: 60px ! important; width: 100% ! important; font-size: 30px ! important; line-height: 60px ! important; }
+  .order182614-form .secInp { height: 32px ! important; width: 90% ! important; line-height: normal ! important; font-size: 18px ! important; padding: 0px 10px ! important; }
+  .corb-pl :-moz-placeholder { color: rgb(136, 136, 136) ! important; font-size: 18px ! important; }
+  .corb-pl .placeholder { color: rgb(136, 136, 136) ! important; font-size: 18px ! important; }
+  .corb-top__header { font-size: 24px ! important; font-weight: 500 ! important; line-height: 26px ! important; }
+}
